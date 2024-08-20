@@ -1,0 +1,193 @@
+body {
+    overflow-x: hidden;
+}
+
+.font-small {
+    font-size: 13px;
+}
+
+.font-mid {
+    font-size: 16px;
+}
+
+.text-gray {
+    color: #979797;
+}
+
+
+/* navbar */
+.navbar {
+    background: white;
+}
+
+.navbar-shadow {
+    box-shadow: 0px 2px 5px #0000004d;
+}
+
+.navbar .left {
+    background: black;
+    border-radius: 10px;
+}
+
+.main {
+    margin-top: 7%;
+}
+
+.main section {
+    margin-bottom: 4%;
+}
+
+/* mega-menu */
+.mega-menu {
+    background: #fffffff7;
+    margin-top: 85px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.mega-menu>.all>.each:hover {
+    background: #d5d4d457;
+    border-radius: 20px;
+}
+
+/* support */
+.support>.content {
+    background-color: #fcfcfcb5;
+    box-shadow: 0px 0px 10px #0000003b;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.support>.content>img {
+    border-radius: 50%;
+}
+
+
+/* top section */
+.main>.top {
+    background-color: #7dff68;
+    border-radius: 20px;
+}
+
+.main>.top>.left>.buttons>.right>a {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.main>.top>.left>.buttons>.left>a {
+    background: black;
+    border-radius: 10px;
+}
+
+.separator {
+    margin-bottom: 4%;
+}
+
+.separator>hr {
+    height: 1px;
+    background-color: #5a5a5a;
+}
+
+/* services section */
+
+.main>.services>.all>.each>div {
+    border: 0.5px solid #e7e7e7;
+    border-radius: 20px;
+    height: 320px;
+}
+
+.main>.services>.all>.each>div:hover {
+    background-color: #7dff68;
+}
+
+.main>.services {
+    margin-bottom: 4%;
+}
+
+/* customers section */
+.main>.customers {
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+.main>.customers>.all>.each>div {
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* about section */
+.main>.about>.top>p>span {
+    background: #7dff68;
+    border-radius: 10px;
+}
+
+.main>.about>.top>a {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.main>.about>.bottom>.all>.each>div {
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+/* questions section */
+.main>.questions {
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+.main>.questions>.accordion>.accordion-item {
+    background: #f4f4f4;
+}
+
+.main>.questions>.accordion>.accordion-item>.accordion-header>.accordion-button {
+    background: #f4f4f4;
+}
+
+.main>.questions>.accordion>.title>p>span {
+    background: #7dff68;
+    border-radius: 10px;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+/* contact us section */
+.main>.contact {
+    background: #7dff68;
+    border-radius: 20px;
+}
+
+.main>.contact>.right>.bottom>.right>.first {
+    background: black;
+    border-radius: 10px;
+}
+
+.main>.contact>.right>.bottom>.right>.second {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* footer section */
+.main>.footer {
+    background: #1b1b1b;
+    border-radius: 20px;
+}
+
+.main>.footer>.mid>.left>.imgs {
+    background: white;
+    border-radius: 20px;
+}
+
+
+/* footer - mobile */
+.main>.footer-mob {
+    background: #1b1b1b;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.bg {
+    background: white;
+    border-radius: 20px;
+}

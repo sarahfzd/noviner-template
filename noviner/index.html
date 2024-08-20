@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خلق دنیای دیجیتال با نوینر</title>
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar fixed-top pt-3 py-3 col-12">
+        <div class="d-flex flex-row align-items-center justify-content-between mx-auto col-11">
+            <a class="right col-5 col-sm-4 col-md-3 col-lg-2" href="#">
+                <img class="w-75" src="assets/img/logo.svg" alt="#">
+            </a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-list d-lg-none" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+            <ul
+                class="mid navbar-nav fs-6 fw-bolder d-none d-lg-flex flex-row align-items-center justify-content-between col-lg-7 col-xl-6">
+                <li class="nav-item mx-auto">
+                    <a href="#" class="text-decoration-none text-black px-2">خانه</a>
+                </li>
+                <li class="nav-item d-flex flex-row align-items-center mx-auto" id="services">
+                    <a href="#" class="text-decoration-none text-black px-1">خدمات</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down me-0" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </li>
+                <li class="nav-item d-flex flex-row align-items-center mx-auto">
+                    <a href="#" class="text-decoration-none text-black px-1">محصولات</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </li>
+                <li class="nav-item mx-auto">
+                    <a href="#" class="text-decoration-none text-black px-2">بلاگ</a>
+                </li>
+                <li class="nav-item mx-auto">
+                    <a href="#" class="text-decoration-none text-black px-2">درباره مجموعه</a>
+                </li>
+                <li class="nav-item mx-auto">
+                    <a href="#" class="text-decoration-none text-black px-2">اطلاعات تماس</a>
+                </li>
+            </ul>
+            <a class="left text-decoration-none d-none d-lg-block text-center py-2 px-4 text-white col-lg-2" href="#">
+                درخواست مشاوره
+            </a>
+        </div>
+    </div>
+    <div class="mega-menu d-none pb-4 px-4 fixed-top mx-auto col-8">
+        <div class="all d-flex flex-wrap align-items-center col-12">
+            <a href="#" data-id="1"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/1.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/11.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">راه اندازی استارت آپ</p>
+                    <p class="text-gray m-0">Startup</p>
+                </div>
+            </a>
+            <a href="#" data-id="2"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/2.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/22.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">خدمات دوآپس</p>
+                    <p class="text-gray m-0">DevOps Serviecs</p>
+                </div>
+            </a>
+            <a href="#" data-id="3"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/3.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/33.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">طراحی وب سایت</p>
+                    <p class="text-gray m-0">Web Design</p>
+                </div>
+            </a>
+            <a href="#" data-id="4"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/4.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/44.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">طراحی اپلیکیشن</p>
+                    <p class="text-gray m-0">App Design</p>
+                </div>
+            </a>
+            <a href="#" data-id="5"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/5.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/55.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">طراحی رابط کابری</p>
+                    <p class="text-gray m-0">UiUx Design</p>
+                </div>
+            </a>
+            <a href="#" data-id="6"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/6.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/66.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">دیجیتال مارکتینگ</p>
+                    <p class="text-gray m-0">Digital Marketing</p>
+                </div>
+            </a>
+            <a href="#" data-id="7"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-center justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/7.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/77.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">سئو</p>
+                    <p class="text-gray m-0">SEO</p>
+                </div>
+            </a>
+            <a href="#" data-id="8"
+                class="each menuItem text-decoration-none text-black p-2 d-flex flex-row align-items-start justify-content-between col-3">
+                <img class="p-2 col-3 firstImg" src="assets/img/mega-menu/8.svg">
+                <!-- <img class="p-2 col-3 d-none secondImg" src="assets/img/mega-menu/88.svg"> -->
+                <div class="d-flex font-mid flex-column align-items-start p-1 col-9">
+                    <p class="m-0">سوشال مدیا</p>
+                    <p class="text-gray m-0">Social Media</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="support fixed-bottom bottom-0 end-0 mb-3 p-3 pe-0 col-9 col-sm-4 col-lg-2">
+        <div class="content p-2 py-2 d-flex flex-row align-items-center justify-content-between col-10">
+            <img src="assets/img/support.webp" class="col-3">
+            <div class="d-flex flex-column align-items-start col-8">
+                <span class="">سوال داری؟</span>
+                <span class="text-gray">از خودم بپرس!!!</span>
+            </div>
+        </div>
+    </div>
+    <div class="main mx-auto col-11">
+        <!-- top section -->
+        <section class="top p-4 d-lg-flex flex-row justify-content-betweenn col-12">
+            <div class="right col-12 col-lg-6">
+                <img class="w-100 p-4" src="assets/img/section-top.svg">
+            </div>
+            <div class="left py-5 text-center col-12 col-lg-6">
+                <div class="top py-2 col-12">
+                    <h1 class="h1 display-5 fw-bolder col-12">
+                        نوینر، دنیای دیجیتال شما را
+                        <br>
+                        <span class="">خلق </span>
+                        میکند
+                    </h1>
+                </div>
+                <div class="mid py-2 col-12">
+                    <p class="display-5 col-12">
+                        Noviner creates your
+                        <br>
+                        digital world
+                    </p>
+                </div>
+                <div class="bottom py-2 col-12">
+                    <p class="fw-lighter col-10 mx-auto">ارائه کننده راه حل‌های نوآورانه و کارآمد برای چالش‌های تکنولوژی
+                        شما :) از ایده تا اجرا، کنار شما
+                        در مسیر تحول دیجیتال و مارکتینگ شما خواهیم بود تا رویای خود را به واقعیت تبدیل کنید و به دنیای
+                        تکنولوژی بدون چالش قدم بگذارید!</p>
+                </div>
+                <div class="buttons py-4 d-lg-flex flex-row align-items-center justify-content-center col-12">
+                    <div class="right my-5 col-12 col-lg-4">
+                        <a href="#" class="fs-5 fw-bold ps-3 py-2 px-4 text-decoration-none text-black">اطلاعات تماس</a>
+                    </div>
+                    <div class="left my-5 col-12 col-lg-5">
+                        <a href="#" class="fs-5 fw-bold py-2 px-4 text-decoration-none text-white">درخواست مشاوره</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <div class="separator d-flex flex-row align-items-end justify-content-between mx-auto col-12">
+            <span class="fs-4 fw-bold text-nowrap">خدمات نوینر</span>
+            <hr class="w-100">
+            <span class="fs-4 fw-bold text-nowrap">Services</span>
+        </div>
+        <!-- services section -->
+        <section class="services col-12">
+            <div class="all d-sm-flex flex-wrap justify-content-between align-items-stretch">
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/1.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">راه اندازی استارت آپ</p>
+                        <p class="my-1 fs-5 text-gray">Start Up</p>
+                        <p class="fw-lighter font-small"> نوینر، با ارائه خدمات جامع راه اندازی استارت آپ، در هر مرحله
+                            از مسیر
+                            کارآفرینی همراه شماست. از
+                            ایده پردازی تا جذب سرمایه، طراحی و توسعه محصول، بازاریابی و فروش، ما در کنار شما خواهیم بود.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/2.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">خدمات دوآپس</p>
+                        <p class="my-1 fs-5 text-gray">DevOps Services</p>
+                        <p class="fw-lighter font-small"> با ارائه خدمات تخصصی DevOps، به شما کمک می‌کنیم تا فرآیندهای
+                            توسعه و
+                            استقرار
+                            نرم‌افزار خود را بهینه کنید و با اتوماسیون، نظارت و همکاری مداوم، کارهای شما می‌توانند
+                            سریع‌تر و
+                            کارآمدتر از همیشه عمل کنند.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/3.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">طراحی وب سایت</p>
+                        <p class="my-1 fs-5 text-gray">Web Design</p>
+                        <p class="fw-lighter font-small"> با طراحی و توسعه وب‌اپلیکیشن‌های سفارشی، نیازهای منحصر به فرد
+                            شما را
+                            برآورده
+                            می‌کنیم. از وب‌اپلیکیشن‌های مدیریتی پیچیده تا پلتفرم‌های تجارت الکترونیک، ما راه‌حلی ایده‌آل
+                            برای شما ارائه می‌دهیم. </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/4.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">طراحی اپلیکیشن موبایل</p>
+                        <p class="my-1 fs-5 text-gray">Mobile App Design</p>
+                        <p class="fw-lighter font-small"> طراحی و توسعه اپلیکیشن‌های موبایل بومی و چندسکویی و یا سفارشی
+                            برای iOS و
+                            Android از اپلیکیشن‌های بازی و سرگرمی تا برنامه‌های تجاری و آموزشی، ما راه‌حلی ایده‌آل برای
+                            نیازهای شما ارائه می‌دهیم. </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/5.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">طراحی رابط کاربری</p>
+                        <p class="my-1 fs-5 text-gray">UI/UX Design</p>
+                        <p class="fw-lighter font-small"> ما با سالها تجربه و تخصص در زمینه طراحی UI و با در نظر گرفتن
+                            نیاز ها و
+                            سلایق
+                            شما, رابط کاربری های زیبا و کاربردی را برای شما خلق میکنیم که نظر مخاطبان را به خود جلب می
+                            کند و
+                            تجربه کاربری بی نظیری را برای آنها رقم میزند. </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/6.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">دیجیتال مارکتینگ</p>
+                        <p class="my-1 fs-5 text-gray">Digital Marketing</p>
+                        <p class="fw-lighter font-small"> ما با ارائه خدمات دیجیتال مارکتینگ جامع, به شما کمک میکنیم تا
+                            به مخاطبان
+                            هدف
+                            خود در فضای آنلاین دست پیدا کنید و برند خود را به آنها معرفی کنید. این خدمات جامع شامل سئو,
+                            بازاریابی محتوا, تبلیغات آنلاین, بازاریابی شبکه های اجتماعی و… میشود </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/7.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">سئو</p>
+                        <p class="my-1 fs-5 text-gray">SEO</p>
+                        <p class="fw-lighter font-small"> ما با ارائه خدمات سئو تخصصی به شما کمک میکنیم تا به جایگاه های
+                            برتر نتایج
+                            جستجو دست پیدا کنید و ترافیک ارگانیک وبسایت خود را به طور چشمگیری افزایش دهید و از رقبای خود
+                            پیشی گرفته و به مشتریان بالقوه بیشتری دست پیدا کنید </p>
+                    </div>
+                </a>
+                <a
+                    class="each mb-3 text-decoration-none text-black py-3 px-2 text-center d-flex flex-column align-items-center justify-content-between col-12 col-sm-6 col-lg-3">
+                    <div class="mx-2 p-2 col-12">
+                        <img class="my-2" src="assets/img/services/8.svg" alt="devops">
+                        <p class="my-1 fs-6 fw-bold">سوشیال مدیا</p>
+                        <p class="my-1 fs-5 text-gray">Social Media</p>
+                        <p class="fw-lighter font-small"> ما به شما کمک میکنیم تا در این فضا به طور موثری فعالیت کنید و
+                            به اهداف
+                            خود
+                            برسید. خدمات ما شامل طراحی و پیاده سازی کمپین های تبلیغاتی در شبکه های اجتماعی, مدیریت صفحات
+                            و
+                            تولید محتوای جذاب و تعاملی میباشد. </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- customers section -->
+        <section class="customers p-4 col-12">
+            <div class="separator mb-4 d-flex flex-row align-items-end justify-content-between mx-auto col-12">
+                <span class="fs-4 fw-bold text-nowrap">مشتریان نوینر</span>
+                <hr class="w-100">
+                <span class="fs-4 fw-bold text-nowrap">Customers</span>
+            </div>
+            <div class="all d-flex flex-wrap align-items-center justify-content-between col-12">
+                <div class="each p-1 col-6 col-md-4 col-lg-2">
+                    <div class="m-3 p-1">
+                        <img class="w-100" src="assets/img/customers/1.webp">
+                    </div>
+                </div>
+                <div class="each p-2 col-6 col-md-4 col-lg-2">
+                    <div class="m-3 p-1">
+                        <img class="w-100" src="assets/img/customers/2.webp">
+                    </div>
+                </div>
+                <div class="each p-1 col-6 col-md-4 col-lg-2">
+                    <div class="m-3 p-1">
+                        <img class="w-100" src="assets/img/customers/3.webp">
+                    </div>
+                </div>
+                <div class="each p-1 col-6 col-md-4 col-lg-2">
+                    <div class="m-3 p-1">
+                        <img class="w-100" src="assets/img/customers/4.webp">
+                    </div>
+                </div>
+                <div class="each p-1 col-6 col-md-4 col-lg-2">
+                    <div class="m-3 p-1">
+                        <img class="w-100" src="assets/img/customers/5.webp">
+                    </div>
+                </div>
+                <div class="each p-1 col-6 col-md-4 col-lg-2">
+                    <div class="m-3 p-1">
+                        <img class="w-100" src="assets/img/customers/6.webp">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-us section -->
+        <section class="about col-12">
+            <div class="top d-lg-flex flex-row align-items-center justify-content-between col-12">
+                <p class="fs-4 fw-bold col-12 col-sm-6">تیم
+                    <span class="px-1 mx-1">نوینر</span>
+                    بهترین های تکنولوژی.
+                </p>
+                <a class="text-decoration-none d-block d-lg-inline text-center text-black fs-5 px-3 py-2 col-sm-12 col-lg-2 col-12"
+                    href="#">درباره مجموعه</a>
+            </div>
+            <div class="bottom col-12">
+                <div class="all d-flex align-items-center flex-wrap col-12">
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/1.webp">
+                            <span class="fs-5 fw-bold text-nowrap">رامین براتی</span>
+                            <span class="text-gray text-nowrap">CEO</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/2.webp">
+                            <span class="fs-5 fw-bold text-nowrap">بهروز زارعی</span>
+                            <span class="text-gray text-nowrap">CTO</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/3.webp">
+                            <span class="fs-5 fw-bold text-nowrap">کیمیا سرداری</span>
+                            <span class="text-gray text-nowrap">Project Manager</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/4.webp">
+                            <span class="fs-5 fw-bold text-nowrap">فاطمه جلیلیان</span>
+                            <span class="text-gray text-nowrap">Web Devloper</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/5.webp">
+                            <span class="fs-5 fw-bold text-nowrap">رضا فخرائی</span>
+                            <span class="text-gray text-nowrap">Web Devloper</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/6.webp">
+                            <span class="fs-5 fw-bold text-nowrap">مهراد صادقی</span>
+                            <span class="text-gray text-nowrap">Web Devloper</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/7.webp">
+                            <span class="fs-5 fw-bold text-nowrap">روزبه زارعی</span>
+                            <span class="text-gray text-nowrap">Mobile Developer</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/8.webp">
+                            <span class="fs-5 fw-bold text-nowrap">اهورا فخریان</span>
+                            <span class="text-gray text-nowrap">UI/UX Designer</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/9.webp">
+                            <span class="fs-5 fw-bold text-nowrap">فریبا احسانی</span>
+                            <span class="text-gray text-nowrap">Digital Marketer</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/10.webp">
+                            <span class="fs-5 fw-bold text-nowrap">سعیده رضائی</span>
+                            <span class="text-gray text-nowrap">Social Manager</span>
+                        </div>
+                    </div>
+                    <div class="each p-2 col-6 col-md-4 col-lg-3">
+                        <div class="p-2 d-flex flex-column align-items-center justify-content-between col-12">
+                            <img class="p-2 w-100" src="assets/img/about/11.webp">
+                            <span class="fs-5 fw-bold text-nowrap">حدیث بازوند</span>
+                            <span class="text-gray text-nowrap">Content Marketer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- questions section -->
+        <section class="questions col-12">
+            <div class="accordion accordion-flush py-4 px-5" id="accordionFlushExample">
+                <div class="title text-center">
+                    <p class="fs-4 fw-bold">
+                        سوالات
+                        <span class="mx-2 px-1">پرتکرار</span>
+                        پرسیده شده
+                    </p>
+                </div>
+                <div class="accordion-item pt-4 py-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <div class="d-flex flex-row align-items-center justify-content-between col-12">
+                                <span class="col-10 text-end"> 1- چه خدماتی ارائه می دهید؟</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down fw-bold col-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> خدمات 360 درجه استارتاپ ما طیف وسیعی از خدمات در زمینه های مختلف از
+                            جمله طراحی سایت, طراحی رابط کاربری, خدمات دیجیتال مارکتینگ, سئو ,شبکه های اجتماعی و … را
+                            ارائه می دهد. در واقع ما صفر تا صد خدمات دیجیتالی شما را پیاده سازی و انجام میدهیم. </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <div class="d-flex flex-row align-items-center justify-content-between col-12">
+                                <span class="col-10 text-end"> 2- هزینه خدمات شما چقدر است؟ </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down fw-bold col-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> هزینه خدمات ما به نوع خدمتی که درخواست می کنید متفاوت خواهد بود. با
+                            این حال ما معتقد به ارائه خدمات با کیفیت به قیمتی مناسب هستیم. شما میتوانید برای دریافت
+                            برآورد دقیق تر از هزینه خدمات ما با ما تماس بگیرید . </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <div class="d-flex flex-row align-items-center justify-content-between col-12">
+                                <span class="col-10 text-end"> 3- نمونه کارهای شما را چگونه ببینم؟ </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down fw-bold col-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> شما می توانید نمونه کار های ما را در وب سایت و بخش خدمات و محصولات
+                            مشاهده کنید. همچنین می توانید برای دریافت نمونه کار های بیشتر با ما تماس بگیرید. </div>
+                    </div>
+                </div>
+                <div class="accordion-item pb-4 py-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <div class="d-flex flex-row align-items-center justify-content-between col-12">
+                                <span class="col-10 text-end"> 4- برای سفارش خدمات چکار باید بکنم؟ </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down fw-bold col-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> همین حالا به صفحه تماس با ما رفته و با کارشناسان نوینر تماس بگیرید
+                            و سفارش خود را ثبت نمائید. </div>
+                    </div>
+                </div>
+        </section>
+        <!-- contact-us section -->
+        <section class="contact d-lg-flex flex-row align-items-center justify-content-between p-4 col-12">
+            <div class="right col-12 col-lg-8">
+                <div class="top d-lg-flex flex-row align-items-end justify-content-between mb-3 col-12">
+                    <h3 class="fw-bold text-center fs-4 col-12 col-lg-7">با ما در ارتباط باشید</h3>
+                    <img class="mx-auto d-block col-12 col-sm-4 col-lg-3" src="assets/img/in-touch.svg">
+                </div>
+                <div class="mid my-4">
+                    <p class="col-12 fs-5 fw-light">آیا به دنبال راهی برای ارتقای کسب و کار خود در دنیای دیجیتال هستید؟
+                        ما به شما کمک می کنیم!
+                        <br>
+                        با مشاوران متخصص نوینر, دنیای دیجیتال شما را خلق می کنیم 😉
+                    </p>
+                </div>
+                <div class="bottom d-lg-flex flex-row align-items-center justify-content-between my-4 col-12">
+                    <div class="right d-lg-flex flex-row align-items-center justify-content-start col-12 col-lg-8">
+                        <div class="first text-center p-3 my-2 mx-1 col-12 col-lg-5">
+                            <a href="#" class="right text-decoration-none text-white col-12 col-lg-5">
+                                درخواست مشاوره
+                            </a>
+                        </div>
+                        <div class="second text-center p-3 my-2 mx-1 col-12 col-lg-5">
+                            <a href="#" class="left text-decoration-none text-black col-12 col-lg-5">
+                                اطلاعات تماس
+                            </a>
+                        </div>
+                    </div>
+                    <div class="left d-none d-lg-flex flex-row align-items-center justify-content-end col-12 col-lg-4">
+                        <a class="text-decoration-none text-black mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                            </svg>
+                        </a>
+                        <a class="text-decoration-none text-black mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor"
+                                class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                            </svg>
+                        </a>
+                        <a class="text-decoration-none text-black mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                        <a class="text-decoration-none text-black mx-2 ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="left col-12 col-lg-4">
+                <img class="w-100 p-4" src="assets/img/contact.svg">
+            </div>
+        </section>
+        <!-- footer section -->
+        <section class="footer d-none d-md-block p-5 col-12">
+            <div class="top d-sm-flex flex-row align-items-center justify-content-between py-3 col-12">
+                <img class="col-sm-3" src="assets/img/footer.svg" alt="">
+                <div class="d-flex flex-column align-items-end text-white col-sm-4">
+                    <span class="mb-3 fs-5">:Follow Us</span>
+                    <div class="d-flex flex-row align-items-center justify-content-between col-10 col-lg-6">
+                        <a href="https://wa.me/+989124654968">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                            </svg>
+                        </a>
+                        <a href="https://t.me/raminbarati">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/noviner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/noviner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid my-3 d-sm-flex flex-row align-items-end justify-content-between col-12">
+                <div class="right d-sm-flex flex-row align-items-end justify-content-between text-white col-sm-8">
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title fw-bold fs-6 my-3">استودیو نوینر</span>
+                        <span class="fw-light my-2 font-small">خانه</span>
+                        <span class="fw-light my-2 font-small">درخواست مشاوره</span>
+                        <span class="fw-light my-2 font-small">درباره مجموعه</span>
+                        <span class="fw-light my-2 font-small">اطلاعات تماس</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title fw-bold fs-6 my-3">خدمات</span>
+                        <span class="fw-light my-2 font-small">استارت آپ</span>
+                        <span class="fw-light my-2 font-small">خدمات دوآپس</span>
+                        <span class="fw-light my-2 font-small">طراحی وب سایت</span>
+                        <span class="fw-light my-2 font-small">موبایل اپلیکیشن</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title"></span>
+                        <span class="fw-light my-2 font-small">طراحی Ui & Ux </span>
+                        <span class="fw-light my-2 font-small"> دیجیتال مارکتینگ</span>
+                        <span class="fw-light my-2 font-small"> سئو SEO </span>
+                        <span class="fw-light my-2 font-small">سوشیال مدیا</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title fw-bold fs-6 my-3">محصولات</span>
+                        <span class="fw-light my-2 font-small"> سایت شخصی </span>
+                        <span class="fw-light my-2 font-small"> سایت شرکتی </span>
+                        <span class="fw-light my-2 font-small"> سایت خدماتی </span>
+                        <span class="fw-light my-2 font-small"> فروشگاه آنلاین </span>
+                    </div>
+                </div>
+                <div class="left col-sm-4">
+                    <div class="bg p-4 d-flex flex-row align-items-end justify-content-evenly">
+                        <img src="assets/img/enamad2.svg" class="p-2 col-lg-5">
+                        <img src="assets/img/enamad.svg" class="p-2 col-lg-5">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom text-white d-sm-flex flex-row align-items-start justify-content-end col-12">
+                <a href="tel:02191096897"
+                    class="ms-4 d-flex flex-row align-items-center text-decoration-none text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-telephone-fill mx-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <span class="fw-light">021-91096897</span>
+                </a>
+                <a href="mailto:info@noviner.io"
+                    class="d-flex flex-row align-items-center text-decoration-none text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-envelope-fill mx-1" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <span class="fw-light"> info@noviner.io </span>
+                </a>
+            </div>
+        </section>
+        <!-- footer / mobile -->
+        <section class="footer-mob d-sm-none p-3 col-12">
+            <div class="d-flex flex-column col-12">
+                <div class="mx-auto mb-4 mt-3 col-7">
+                    <img class="col-12" src="assets/img/footer.svg" alt="">
+                </div>
+                <div class="d-flex mb-4 flex-column col-12">
+                    <div class="">
+                        <p class="text-white text-end mb-3 fs-5 fw-bold">استودیو نوینر</p>
+                    </div>
+                    <div class="d-flex flex-row align-items-start col-12">
+                        <div class="d-flex flex-column col-6 col-sm-12">
+                            <a class="py-2 fw-light text-decoration-none text-white">خانه</a>
+                            <a class="py-2 fw-light text-decoration-none text-white">درخواست مشاوره</a>
+                            <a class="py-2 fw-light text-decoration-none text-white">درباره مجموعه</a>
+                            <a class="py-2 fw-light text-decoration-none text-white">اطلاعات تماس</a>
+                        </div>
+                        <div class="d-flex flex-column justify-content-end align-items-center col-6">
+                            <a class="py-1" href="https://www.linkedin.com/company/noviner">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
+                                    class="fw-light bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                            </a>
+                            <a class="py-1" href="https://www.instagram.com/noviner">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
+                                    class="fw-light bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </a>
+                            <a class="py-1" href="https://t.me/raminbarati">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
+                                    class="fw-light bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                                </svg>
+                            </a>
+                            <a class="py-1" href="https://wa.me/+989124654968">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
+                                    class="fw-light bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mb-4 flex-column col-12">
+                    <div class="d-flex flex-column">
+                        <p class="text-white fw-bold fs-6">خدمات</p>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column col-6">
+                                <a class="py-2 text-decoration-none text-white"> استارت آپ </a>
+                                <a class="py-2 text-decoration-none text-white"> خدمات دوآپس</a>
+                                <a class="py-2 text-decoration-none text-white">طراحی وب سایت</a>
+                                <a class="py-2 text-decoration-none text-white">موبایل اپلیکیشن </a>
+                            </div>
+                            <div class="d-flex flex-column align-items-start col-6">
+                                <a class="py-2 text-decoration-none text-white">طراحی Ui & Ux </a>
+                                <a class="py-2 text-decoration-none text-white"> دیجیتال مارکتینگ</a>
+                                <a class="py-2 text-decoration-none text-white"> سئو SEO </a>
+                                <a class="py-2 text-decoration-none text-white">سوشیال مدیا</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mb-4 flex-row col-12">
+                    <div class="d-flex flex-column align-items-start col-6">
+                        <p class="text-white fw-bold fs-6">محصولات</p>
+                        <a class="text-decoration-none text-white py-2"> سایت شخصی </a>
+                        <a class="text-decoration-none text-white py-2"> سایت شرکتی </a>
+                        <a class="text-decoration-none text-white py-2"> سایت خدماتی </a>
+                        <a class="text-decoration-none text-white py-2"> فروشگاه آنلاین </a>
+                    </div>
+                    <div class="bg d-flex flex-column align-items-center py-2 col-5">
+                        <img class="py-2" src="assets/img/enamad2.svg">
+                        <img class="py-2" src="assets/img/enamad.svg">
+                    </div>
+                </div>
+                <div class="d-flex flex-column mb-4 align-items-center col-12">
+                    <a class="text-decoration-none text-white d-flex flex-row align-items-center justify-content-center py-2"
+                        href="mailto:info@noviner.io">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white"
+                            class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                        </svg>
+                        <span class="fw-light px-1">info@noviner.io</span>
+                    </a>
+                    <a class="text-decoration-none text-white d-flex flex-row align-items-center justify-content-center py-2"
+                        href="tel:02191096897">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white"
+                            class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path
+                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                        <span class="fw-light px-1">02191096897</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- footer / tablet -->
+        <section class="footer-tablet d-none d-sm-block d-lg-none p-5 col-12">
+            <div class="top d-sm-flex flex-row align-items-center justify-content-between py-3 col-12">
+                <img class="col-sm-3" src="assets/img/footer.svg" alt="">
+                <div class="d-flex flex-column align-items-end text-white col-sm-4">
+                    <span class="mb-3 fs-5">:Follow Us</span>
+                    <div class="d-flex flex-row align-items-center justify-content-between col-10">
+                        <a href="https://wa.me/+989124654968">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                            </svg>
+                        </a>
+                        <a href="https://t.me/raminbarati">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/noviner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/noviner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid my-3 d-sm-flex flex-column align-items-end justify-content-between col-12">
+                <div class="right d-sm-flex flex-row align-items-end justify-content-between text-white col-sm-12">
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title fw-bold fs-6 my-3">استودیو نوینر</span>
+                        <span class="fw-light my-2 font-small">خانه</span>
+                        <span class="fw-light my-2 font-small">درخواست مشاوره</span>
+                        <span class="fw-light my-2 font-small">درباره مجموعه</span>
+                        <span class="fw-light my-2 font-small">اطلاعات تماس</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title fw-bold fs-6 my-3">خدمات</span>
+                        <span class="fw-light my-2 font-small">استارت آپ</span>
+                        <span class="fw-light my-2 font-small">خدمات دوآپس</span>
+                        <span class="fw-light my-2 font-small">طراحی وب سایت</span>
+                        <span class="fw-light my-2 font-small">موبایل اپلیکیشن</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title"></span>
+                        <span class="fw-light my-2 font-small">طراحی Ui & Ux </span>
+                        <span class="fw-light my-2 font-small"> دیجیتال مارکتینگ</span>
+                        <span class="fw-light my-2 font-small"> سئو SEO </span>
+                        <span class="fw-light my-2 font-small">سوشیال مدیا</span>
+                    </div>
+                </div>
+                <div class="left d-flex flex-row col-sm-12">
+                    <div class="d-flex text-white flex-column align-items-start justify-content-center col-sm-3">
+                        <span class="title fw-bold fs-6 my-3">محصولات</span>
+                        <span class="fw-light my-2 font-small"> سایت شخصی </span>
+                        <span class="fw-light my-2 font-small"> سایت شرکتی </span>
+                        <span class="fw-light my-2 font-small"> سایت خدماتی </span>
+                        <span class="fw-light my-2 font-small"> فروشگاه آنلاین </span>
+                    </div>
+                    <div class="imgs p-4 d-flex flex-row align-items-end justify-content-evenly">
+                        <img src="assets/img/enamad2.svg" class="p-3 col-lg-5">
+                        <img src="assets/img/enamad.svg" class="p-3 col-lg-5">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom text-white d-sm-flex flex-row align-items-start justify-content-end col-12">
+                <a href="tel:02191096897"
+                    class="ms-4 d-flex flex-row align-items-center text-decoration-none text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-telephone-fill mx-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <span class="fw-light">021-91096897</span>
+                </a>
+                <a href="mailto:info@noviner.io"
+                    class="d-flex flex-row align-items-center text-decoration-none text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-envelope-fill mx-1" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <span class="fw-light"> info@noviner.io </span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/script/bootstrap.bundle.min.js"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
