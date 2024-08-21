@@ -38,13 +38,13 @@ body {
 }
 
 /* mega-menu */
-.mega-menu {
+.mega-menu-services {
     background: #fffffff7;
     margin-top: 85px;
     border-radius: 0px 0px 20px 20px;
 }
 
-.mega-menu>.all>.each:hover {
+.mega-menu-services>.all>.each:hover {
     background: #d5d4d457;
     border-radius: 20px;
 }

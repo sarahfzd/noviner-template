@@ -16,10 +16,10 @@ $(document).ready(function () {
     // })
 
     $('#services').hover(function () {
-        $('.mega-menu').removeClass('d-none')
+        $('.mega-menu-services').removeClass('d-none')
     })
     $('.mega-menu').on("mouseleave", function(){
-        $('.mega-menu').addClass('d-none')
+        $('.mega-menu-services').addClass('d-none')
     })
 
     
