@@ -40,9 +40,10 @@ body {
 /* mega-menu */
 .mega-menu-services {
     background: #fffffff7;
-    margin-top: 65px;
     border-radius: 0px 0px 20px 20px;
-    z-index: 2;
+    width: 900px;
+    top: 48px;
+    right: -250px;
 }
 
 .mega-menu-services>.all>.each:hover {
@@ -52,8 +53,10 @@ body {
 
 .mega-menu-products {
     background: #fffffff7;
-    margin-top: 65px;
     border-radius: 0px 0px 20px 20px;
+    width: 900px;
+    top: 48px;
+    right: -250px;
 }
 
 .mega-menu-products>.all>.each:hover {
@@ -61,7 +64,18 @@ body {
     border-radius: 20px;
 }
 
+/* offcanvas */
+.offcanvas {
+    width: 70%;
+    background: #ffffffd9;
+    border-radius: 20px 0px 0px 20px;
+}
+
 /* support */
+.support {
+    z-index: 2;
+}
+
 .support>.content {
     background-color: #fcfcfcb5;
     box-shadow: 0px 0px 10px #0000003b;
