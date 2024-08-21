@@ -7,7 +7,7 @@ body {
 }
 
 .font-mid {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .text-gray {
@@ -40,11 +40,23 @@ body {
 /* mega-menu */
 .mega-menu-services {
     background: #fffffff7;
-    margin-top: 85px;
+    margin-top: 65px;
     border-radius: 0px 0px 20px 20px;
+    z-index: 2;
 }
 
 .mega-menu-services>.all>.each:hover {
+    background: #d5d4d457;
+    border-radius: 20px;
+}
+
+.mega-menu-products {
+    background: #fffffff7;
+    margin-top: 65px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.mega-menu-products>.all>.each:hover {
     background: #d5d4d457;
     border-radius: 20px;
 }
